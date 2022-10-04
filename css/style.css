@@ -1,0 +1,84 @@
+.hidden {
+    display : none;  
+}
+
+#clock {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50px;
+    padding: 10px 40px;
+    margin: 70px;
+    color: white;
+    font-size: 4em;
+    text-shadow: 0px 0px 5px white;
+}
+
+form {
+    text-align: center;
+}
+
+#hello {   
+    display: inline-block;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color : white;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+
+ul > li{
+    font-display: none;
+}
+form input[type="text"] {
+    background-color: transparent;
+    border:none;
+    border-bottom: solid 1px white;
+    color: white;
+    margin-top: 50px;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+}
+
+form input[type="submit"],
+form input[type="button"],
+#todoUl li button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-weight: bold;
+}
+
+#todoUl li button:hover {
+    background-color: rgba(255,0,0,0.8);
+    color: white;
+}
+
+#todoUl {
+    list-style: none;
+    color: white;
+    clear: both;
+    margin-right: 50px;
+}
+
+#todoUl li {
+    color: white;
+    clear: both;
+    margin : 10px 100px;
+}
+
+#todoUl li button {
+    float: right;
+}
+
