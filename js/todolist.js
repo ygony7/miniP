@@ -50,10 +50,12 @@ function addTodo(e) {
 function todoCheck(e) {
     const li = e.target.parentNode;
     if(e.target.checked) {
-        li.style.color = "ligthgray";
-        li.style.text = "decoration: line-throught 1px solid red";
+        li.style.color = "lightgray";
+        li.style.textDecoration = "line-through";
+        li.style.textDecorationColor = "red";
     } else {
         li.style.color = "white";
+        li.style.textDecoration = "";
     }
 };
 
